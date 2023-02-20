@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Kumbh Sans";
+    max-width: 100%;
+    height: 100vh;
+    background-image: url("./bg-pattern-top.svg"), url("./bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 48vw bottom 40vh, left 40vw top 38vh;
+    background-color: #19a1ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 326px;
+    height: 375px;
+    background-color: #ffffff;
+    border-radius: 15px;
+  }
+  
+  .headpoto {
+    max-width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  
+  .victor {
+    border-radius: 50%;
+    border: 5px solid;
+    color: #ffffff;
+    width: 96px;
+    height: 96px;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+  }
+  
+  .name {
+    width: 104px;
+    height: 18px;
+    color: #2e3349;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  .old {
+    width: 22px;
+    height: 18px;
+    color: #6b7082;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 8.5px;
+  }
+  .line1 {
+    display: flex;
+    margin-top: 24px;
+  }
+  
+  .london {
+    width: 50px;
+    height: 14px;
+    font-weight: 400;
+    color: #6b7082;
+    margin-top: 13px;
+    font-size: 14px;
+  }
+  
+  .line {
+    color: #e8e9ec;
+    border: 1px solid;
+    margin-top: 28px;
+  }
+  
+  .follow {
+    margin-top: 24px;
+    margin-left: 54px;
+    margin-right: 54px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  p {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2e3349;
+    height: 18px;
+  }
+  
+  footer {
+    margin-top: 9px;
+    height: 10px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #6b7082;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    body {
+      background-position: right 48vw bottom 40vh, left 50vw top 47vh;
+    }
+  }
+  
